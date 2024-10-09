@@ -21,9 +21,9 @@ import java.util.Scanner;
 //-10 0 -10 0 -10	0
 public class Main {
     public static void main(String[] args) {
-        int mass[] = readData();
+        int []mass = readData();
         int result = getMaxLeghtOfPositive(mass);
-
+        showResult(result);
     }
 
     public static int[] readData() {
